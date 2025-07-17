@@ -1,0 +1,11 @@
+Training Report:
+
+- Model: SimpleASRModel with Conv1D + GRU + Linear
+- Dataset: Common Voice (sample of 1000 entries)
+- Loss function: CTC Loss
+- Epochs: 2
+- Final loss: Around 0.4 to 0.5
+- Observations:
+    - Loss decreased steadily with more iterations.
+    - With more epochs and full dataset, accuracy would improve significantly.
+    - Inference works on downloaded .wav files.
